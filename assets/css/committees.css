@@ -1,0 +1,89 @@
+#header {
+	flex: 0 1 auto;
+}
+#main {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+}
+.committee {
+	text-align: center;
+	color: white;
+}
+.committee:hover {
+	cursor: pointer;
+}
+
+/* Specific to each committee */
+#ICPC {
+	flex: 1;
+	background-image: url("../img/iCPC.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#IMARX {
+	flex: 1;
+	background-image: url("../img/iCommunism.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px, 120px;
+}
+#IBSERC {
+	flex: 1;
+	background-image: url("../img/iBSERC.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+}
+#IDRUGU {
+	flex: 1;
+	background-image: url("../img/iDRUGU.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -190px;
+}
+#ICML {
+	flex: 1;
+	background-image: url("../img/iCML.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#iUNSC {
+	flex: 1;
+	background-image: url("../img/iUNSC.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+#iHPH {
+	flex: 1;
+	background-image: url("../img/iHPH.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/* General committee styling */
+.content {
+	display: flex;
+	flex-direction: row;
+}
+#left {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 800px;
+	flex: 6;
+}
+#right {
+	flex: 3;
+}
+.committee-cover {
+	height: 340px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 1px solid black;
+}
