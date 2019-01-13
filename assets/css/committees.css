@@ -13,7 +13,6 @@
 .committee:hover {
 	cursor: pointer;
 }
-
 /* Specific to each committee */
 #ICPC {
 	flex: 1;
@@ -41,7 +40,7 @@
 	background-image: url("../img/iDRUGU.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 0px -190px;
+	background-position: center;
 }
 #ICML {
 	flex: 1;
